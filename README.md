@@ -1,16 +1,145 @@
-# React + Vite
+# TaskBoard — Smart Task Management Workspace
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive task management web application built to help users organize, track, and complete work efficiently through a structured workflow system.
 
-Currently, two official plugins are available:
+Designed and developed by **Akshita**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Overview
 
-## React Compiler
+TaskBoard provides a clean and interactive interface for managing daily tasks across different stages of completion. It enables users to:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Create and manage tasks
+- Assign priorities and due dates
+- Track workflow progress (Todo → Doing → Done)
+- Search and filter tasks
+- View activity history
+- Maintain productivity with a distraction-free UI
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+##  Features :
+
+###  Core Functionality
+- Task creation with title, description, tags
+- Priority levels (Low / Medium / High)
+- Due date tracking
+- Status workflow management
+- Task deletion and updates
+- Activity log tracking
+
+###  Productivity Tools
+- Search tasks instantly
+- Priority filtering
+- Automatic due-date sorting
+- Local storage persistence
+
+###  UI/UX
+- Modern gradient interface
+- Animated homepage
+- Responsive layout
+- Clean board structure
+- Soft color palette for reduced eye strain
+
+### Authentication (Demo)
+- Login-protected dashboard
+- Route protection
+- Local session handling
+
+---
+
+##  Tech Stack
+
+- React.js
+- Vite
+- Tailwind CSS
+- Framer Motion
+- LocalStorage (state persistence)
+
+---
+
+##  Project Structure
+src/
+ ├── components/
+ │   ├── Column.jsx
+ │   ├── TaskCard.jsx
+ │   ├── TaskForm.jsx
+ │   └── ActivityLog.jsx
+ │
+ ├── pages/
+ │   ├── Home.jsx
+ │   ├── Login.jsx
+ │   └── Board.jsx
+ │
+ ├── App.jsx
+ ├── main.jsx
+ └── index.css
+
+##  Installation & Setup
+
+Clone repository:https://github.com/akshvijay/task-board.git
+
+ ---
+
+## Navigate into the project directory:
+
+cd taskboard
+
+ ---
+
+## Install dependencies:
+
+npm install
+
+ ---
+
+## Run the development server:
+
+npm run dev
+
+---
+## Build the project for production:
+
+npm run build
+
+---
+
+# Demo Credentials
+## For evaluation purposes:
+Email: intern@demo.com
+Password: intern123
+
+
+---
+
+##  Deployment
+
+The project can be deployed on:
+
+- Vercel
+- Netlify
+- GitHub Pages
+
+---
+
+##  Future Improvements
+
+- Cloud database integration
+- User accounts & authentication (Firebase/Auth)
+- Drag-and-drop task movement
+- Notifications & reminders
+- Team collaboration
+
+---
+
+##  Author
+
+**Akshita**
+
+Frontend Developer | CSE Student  
+Focused on building clean, scalable and user-centric applications.
+
+---
+
+## License
+
+This project is open for learning and academic use.
